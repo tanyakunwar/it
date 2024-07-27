@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>
+      newsletter
+    </title>
+    <script type="text/javascript">
+      function subscribe()
+      {
+        alert("welcome to newsletter subscription");
+        var sub =confirm("Do you wish to subscribe ");
+        if(sub)
+        {
+          var email=window.prompt("enter your email");
+          if(email)
+          {
+            alert("Thankyou!");
+          }
+        }
+      
+        else
+        {
+          alert("no");
+        }
+        
+      }
+      
+    </script>
+  </head>
+  <body onload="subscribe()">
+    
+  </body>
+</html>
